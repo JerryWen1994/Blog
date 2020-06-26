@@ -13,3 +13,13 @@
 - 面试题记录
 
 ## DONE
+
+### 算法相关
+
+- [深搜与广搜](./Algorithms/深搜与广搜.md)
+
+### 技术相关
+
+- [前端监控与埋点](./Technology/前端监控与埋点.md)
+- [proxy](./Technology/proxy.md)
+- [长列表优化](./Technology/长列表优化.md)
