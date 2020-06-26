@@ -20,6 +20,9 @@
 
 ### 技术相关
 
+- [动态表单](./Technology/动态表单存储及拓展.md)
 - [前端监控与埋点](./Technology/前端监控与埋点.md)
 - [proxy](./Technology/proxy.md)
 - [长列表优化](./Technology/长列表优化.md)
+
+### 面试相关
