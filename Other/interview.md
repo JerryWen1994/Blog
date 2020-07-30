@@ -21,7 +21,7 @@
 - [19. 什么是 Promise, 实现 Promise](#19)
 - [20. 说一说 async/await 的原理](#20)
 - [21. 说一说 Generator 生成器 ，它是协程吗？](#21)
-- [22. 说一下Symbol 使用场景是什么？](#22)
+- [22. 说一下 Symbol 使用场景是什么？](#22)
 
 <br>
 <br>
@@ -99,7 +99,7 @@ function create(Ctor, ...args) {
   const self = {};
   Object.setPrototypeOf(self, Ctor.prototype);
   const rtn = Ctor.apply(self, args);
-  return typeof rtn === 'object' && rtn != null ? rtn : self;
+  return typeof rtn === "object" && rtn != null ? rtn : self;
 }
 ```
 
@@ -156,7 +156,8 @@ var __extends = (function () {
     function __() {
       this.constructor = d;
     }
-    d.prototype = b === null ? Object.create(b) : ((__.prototype = b.prototype), new __());
+    d.prototype =
+      b === null ? Object.create(b) : ((__.prototype = b.prototype), new __());
   };
 })();
 
@@ -168,7 +169,7 @@ var Animal = (function () {
     if (num == void 0) {
       num = 0;
     }
-    console.log('Animal move ' + num + ' m.');
+    console.log("Animal move " + num + " m.");
   };
   return Animal;
 })();
@@ -183,13 +184,13 @@ var Snake = (function (_super) {
     if (num == void 0) {
       num = 5;
     }
-    console.log('Slithering...');
+    console.log("Slithering...");
     _super.prototype.move.call(this, num);
   };
   return Snake;
 })(Animal);
 
-var a = new Snake('test');
+var a = new Snake("test");
 ```
 
 <h3 id="8">8. __proto__ 是什么？ Function.prototype 是什么？两者有什么关系？</h3>
@@ -394,3 +395,27 @@ factorial(5); // 120
 <h3 id="18">18. 说一说函数柯里化和部分应用</h3>
 
 ![柯里化与部分应用](./image/20200719112452.png)
+
+<br>
+<br>
+
+<h3 id="19">19. 什么是 Promise, 实现 Promise</h3>
+
+![Promise](./image/20200721232011.png)
+
+参考:
+
+- [图解 promise](https://zhuanlan.zhihu.com/p/58428287)
+- [什么是 Promise](https://www.notion.so/Promise-Promise-b0bffd0c5c9848d191e885bd513ff193)
+
+<br>
+<br>
+
+<h3 id="20">20. 说一说 async/await 的原理</h3>
+
+![](./image/async.png)
+
+参考:
+
+- [async/await 源码实现](https://juejin.im/post/5da5dc0b5188251189134b47#heading-0)
+- [async/await](https://www.notion.so/async-await-8f649420dbb946f8ba8b8c12190a9c6f)
