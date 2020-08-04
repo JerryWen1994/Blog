@@ -22,6 +22,10 @@
 - [20. 说一说 async/await 的原理](#20)
 - [21. 说一说 Generator 生成器 ，它是协程吗？](#21)
 - [22. 说一下 Symbol 使用场景是什么？](#22)
+- [23. 说一说你对 this 的理解，箭头函数解决了什么问题？](#23)
+- [24. 怎么判断 JavaScript 的各种类型？](#24)
+- [25. [-1, -10, -2,10, 1, 2, 20].sort() ，结果是什么？为什么？](#25)
+- [26. 什么是 passive 事件处理器？有什么好处](#26)
 
 <br>
 <br>
@@ -419,3 +423,17 @@ factorial(5); // 120
 
 - [async/await 源码实现](https://juejin.im/post/5da5dc0b5188251189134b47#heading-0)
 - [async/await](https://www.notion.so/async-await-8f649420dbb946f8ba8b8c12190a9c6f)
+
+<br>
+<br>
+
+<h3 id="21">21. 说一说 Generator 生成器 ，它是协程吗？</h3>
+
+![](./image/generator与协程.png)
+
+参考:
+
+- [Generator 与协程](https://segmentfault.com/q/1010000011461045)
+
+<br>
+<br>

@@ -33,3 +33,9 @@
 ### 面试相关
 
 - [面试题库](./Other/interview.md)
+
+### 手写代码
+
+- [EventEmitter](./Other/EventEmitter.md)
+- [JSONP](./Other/JSONP.md)
+- [Promise.all/race/allSettled](./Other/Promise的all&race&allSettled.md)
