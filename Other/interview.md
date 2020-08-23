@@ -26,6 +26,7 @@
 - [24. 怎么判断 JavaScript 的各种类型？](#24)
 - [25. [-1, -10, -2,10, 1, 2, 20].sort() ，结果是什么？为什么？](#25)
 - [26. 什么是 passive 事件处理器？有什么好处](#26)
+- [27. 说一说事件冒泡和事件捕获](#27)
 
 <br>
 <br>
@@ -434,6 +435,21 @@ factorial(5); // 120
 参考:
 
 - [Generator 与协程](https://segmentfault.com/q/1010000011461045)
+- [说一说 Generator 生成器 ，它是协程吗？](https://www.notion.so/Generator-5d09a72647e845539e59d74c1cd55390)
+
+<br>
+<br>
+
+<h3 id="22">22. 说一下 Symbol 使用场景是什么？</h3>
+
+![](./image/Symbol.png)
+
+<br>
+<br>
+
+<h3 id="23">23. 说一说你对 this 的理解，箭头函数解决了什么问题？</h3>
+
+![](./image/this与箭头函数.png)
 
 <br>
 <br>
